@@ -1,3 +1,5 @@
+#include <cstring>
+
 #include "KeyboardWindow.h"
 
 #include "KeyboardDevice.h"
@@ -7,7 +9,6 @@
 #include <Application.h>
 #include <Screen.h>
 #include <GroupLayoutBuilder.h>
-
 
 typedef uint32 Pushed[4];
 
